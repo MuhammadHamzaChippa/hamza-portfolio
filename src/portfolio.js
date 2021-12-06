@@ -571,6 +571,10 @@ const projects = {
           iconifyClass: "vscode-icons:file-type-css",
         },
         {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
           name: "React",
           iconifyClass: "logos-react",
         },
@@ -586,19 +590,11 @@ const projects = {
       url:
         "https://github.com/MuhammadHamzaChippa/Topic-Detection-and-Text-Generation",
       description:
-        "Machine Learning Application in which topics are detected from a given text and text is generated using the topics. Dataset is collected by scrapping Reddit Posts. Web Application is created using Flask and generated texts are stored in MongoDB database. The application is containerized using Docker.",
+        "Machine Learning Application in which topics are detected from a given text and text is generated using the topics. Web Application is created using Flask.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
         {
           name: "Flask",
@@ -611,6 +607,96 @@ const projects = {
         {
           name: "Fast.ai",
           iconifyClass: "logos-pytorch",
+        },
+        {
+          name: "Mongodb",
+          iconifyClass: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          name: "Docker",
+          iconifyClass: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Weather Image Classifier",
+      url: "https://github.com/MuhammadHamzaChippa/Weather-Image-Classifier",
+      description:
+        "A simple image classifier which classify the weather images.",
+      languages: [
+        {
+          name: "fast,ai",
+          iconifyClass: "logos-pytorch",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Car Price Prediction",
+      url: "https://github.com/MuhammadHamzaChippa/Car-Price-Project",
+      description:
+        "Car Price is predicted agains the most correlated features of the cars using different Machine Learning algorithms.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Numpy",
+          iconifyClass: "simple-icons:numpy",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          name: "Scikit Learn",
+          iconifyClass: "simple-icons:scikit-learn",
+          style: {
+            color: "#F7DF1E",
+          },
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Personal Portfolio",
+      url: "https://github.com/MuhammadHamzaChippa/hamza-portfolio",
+      description:
+        "A Personal Portfolio created using React and deployed on Firebase which showcases my work experience, projects and skills.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },

@@ -65,6 +65,7 @@
 }
 
 .repo-details {
+  margin-left: auto;
   display: flex;
   flex-direction: row;
 }

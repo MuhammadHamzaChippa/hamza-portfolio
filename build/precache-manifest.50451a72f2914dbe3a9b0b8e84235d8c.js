@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f25f6a748800d159cd7ec1523c06d66",
+    "revision": "e59f883e28c957c7930706276c0fd6fd",
     "url": "/index.html"
   },
   {
-    "revision": "412ded2bfa29e5180416",
+    "revision": "42c65c04d3de3cd41500",
     "url": "/static/css/main.72cc8a32.chunk.css"
   },
   {
-    "revision": "4a7fe8f37328fd4e3681",
-    "url": "/static/js/2.e539053d.chunk.js"
+    "revision": "72f597664fa9e834a579",
+    "url": "/static/js/2.66c6349f.chunk.js"
   },
   {
     "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/static/js/2.e539053d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.66c6349f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "412ded2bfa29e5180416",
-    "url": "/static/js/main.041700ac.chunk.js"
+    "revision": "42c65c04d3de3cd41500",
+    "url": "/static/js/main.136f6b15.chunk.js"
   },
   {
     "revision": "60d90804f9b5400a50c8",
     "url": "/static/js/runtime-main.9f0217c7.js"
+  },
+  {
+    "revision": "aee1a8cd55379db684f16be66dca710d",
+    "url": "/static/media/Accrue.aee1a8cd.jpg"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -60,8 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/buld.a1051a22.jpg"
   },
   {
+    "revision": "a14e965ba3b9f726f9ac9cc642269939",
+    "url": "/static/media/clojurebook.a14e965b.jpeg"
+  },
+  {
     "revision": "404ae7bc061a03e399daa61344c78566",
     "url": "/static/media/cwoc.404ae7bc.png"
+  },
+  {
+    "revision": "d54a6712eefb95019ee08c98a49f72e9",
+    "url": "/static/media/dsa.d54a6712.jpg"
   },
   {
     "revision": "82473004d117a65c8ed30396c6299763",
@@ -152,8 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hackathon1.7a2dbf7a.svg"
   },
   {
-    "revision": "823352fd86e6f76120c6713bccc61157",
-    "url": "/static/media/harikrushn.823352fd.jpg"
+    "revision": "7e2445be328b470638f348376aedf114",
+    "url": "/static/media/hamza.7e2445be.jpg"
   },
   {
     "revision": "36d7942a201d6e2b83b55876e8433ccf",
@@ -164,12 +176,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ino.ccf88661.png"
   },
   {
+    "revision": "841a9d09a8bd5b73c891ace7ae3fee6c",
+    "url": "/static/media/javascript.841a9d09.jpg"
+  },
+  {
     "revision": "847873a85df8045d1d51cc6cf9cc97d7",
     "url": "/static/media/localguide.847873a8.gif"
   },
   {
     "revision": "b7f903d747b0409347c9ee67745dbfa4",
     "url": "/static/media/localguide.b7f903d7.png"
+  },
+  {
+    "revision": "ba0ee71b9a107f60fed24ca09227483c",
+    "url": "/static/media/mlbook.ba0ee71b.jpg"
   },
   {
     "revision": "bc5cfd3a887013976863247e66c389a2",
@@ -180,6 +200,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mlh.53dd27a8.png"
   },
   {
+    "revision": "9ce940df588b679f92d21955276aadc9",
+    "url": "/static/media/mlops_data.9ce940df.jpeg"
+  },
+  {
+    "revision": "138aa2fe5342af4efc60ac3898419416",
+    "url": "/static/media/mlops_intro.138aa2fe.jpeg"
+  },
+  {
+    "revision": "88ad34a7543fa9dd9c925b867a74a3cc",
+    "url": "/static/media/mlops_pipeline.88ad34a7.jpeg"
+  },
+  {
+    "revision": "7bcaaaa07b40a33a39b48f2bbda34102",
+    "url": "/static/media/mltorch.7bcaaaa0.jpg"
+  },
+  {
     "revision": "d324ee17433678f2c32e57198b98c6db",
     "url": "/static/media/mongo.d324ee17.png"
   },
@@ -188,12 +224,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nightowls.5dcd18d0.jpg"
   },
   {
+    "revision": "4639374a7e51d888ddf0a460d5b0891a",
+    "url": "/static/media/nust.4639374a.png"
+  },
+  {
     "revision": "22f11067f2d745aaceb51e485720635d",
     "url": "/static/media/postman.22f11067.jpg"
   },
   {
     "revision": "c108f55777ceaa6690606a207b737d0a",
     "url": "/static/media/postman.c108f557.png"
+  },
+  {
+    "revision": "9ab94d174f8b0d7679391924c93b5146",
+    "url": "/static/media/react.9ab94d17.jpg"
   },
   {
     "revision": "7b7a76ef55658f6999ce00c5d55f85a5",
