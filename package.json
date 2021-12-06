@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "hamza-portfolio",
+  "name": "mhamza-portfolio",
   "version": "1.0.0",
-   "scripts": {
-    "start": "react-scripts start",
+  "scripts": {
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
   },
   "dependencies": {
     "baseui": "^9.109.0",
