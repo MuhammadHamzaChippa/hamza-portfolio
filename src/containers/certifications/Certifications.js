@@ -20,6 +20,19 @@ function Certifications(props) {
           return <CertificationCard certificate={cert} theme={theme} />;
         })}
       </div>
+
+      <div className="certs-header-div">
+        <Fade bottom duration={2000} distance="20px">
+          <h1 className="certs-header" style={{ color: theme.text }}>
+            Books Read
+          </h1>
+        </Fade>
+      </div>
+      <div className="certs-body-div">
+        {certifications.books.map((cert) => {
+          return <CertificationCard certificate={cert} theme={theme} />;
+        })}
+      </div>
     </div>
   );
 }
