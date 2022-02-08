@@ -1,5 +1,13 @@
 /* header */
-
+.sticky {
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: #1d1d1d;
+  height: 100px;
+}
 .header {
   display: block;
   max-width: 90%;

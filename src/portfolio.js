@@ -39,10 +39,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Writing clean, functional and efficient code with number of languages",
-        "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
-        "⚡ Create and deploy highly scalable and reliable backend services",
-        "⚡ Working with the latest technologies and frameworks to develop highly scalable and reliable applications",
+        "⚡ Writing clean, functional and efficient code with number of languages and frameworks such as Python, C++, Rust, Clojure and Javascript.",
+        "⚡ Develop highly interactive Front end / User Interfaces for your web applications using React and Clojurescript",
+        "⚡ Create and deploy highly scalable and reliable backend services using Node, Express and Flask",
+        //"⚡ Working with the latest technologies and frameworks to develop highly scalable and reliable applications",
         "⚡ Experience working with REST and GraphQL APIs",
         "⚡ Developing GraphQL APIs from SQL databases using Hasura and Postgraphile",
         "⚡ Experience working with NoSQL and SQL databases",
@@ -442,7 +442,7 @@ const certifications = {
 const workexperience = {
   work: [
     {
-      title: "Accrue - Upwork",
+      title: "Accrue",
       subtitle: "Software Engineer",
       logo_path: "Accrue.jpg",
       alt_name: "ACCRUE",
@@ -454,6 +454,7 @@ const workexperience = {
         "⚡ Implemented revamped version of Clojurescript UI using React (Metronic UI Kit) and deployed it on AWS EC2 Instance.",
         "⚡ Created CI/CD Pipeline for React Front-end using AWS CodePipeline and AWS CodeDeploy.",
         "⚡ Deployed front-end and backend servers on AWS EC2, deployed databases on AWS RDS, created CI/CD pipelines and optimized the monthly cost selecting the suitable cloud services.",
+        "⚡ Technologies Used: Clojure, ClojureScript, Python, React, AWS (EC2, RDS, CodePipeline, CodeDeploy), GCP (VM,CloudSQL, BigTable, BigQuery), Hasura, GraphQL.",
       ],
       website_link: "https://seecs.nust.edu.pk/",
     },
@@ -557,35 +558,6 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Netflix Clone",
-      url: "https://netflix-clone-6122f.web.app/",
-      description:
-        "This is Netflix Clone Application created using React and deployed on Firebase",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "1",
       name: "Topic Detection and Text Generation",
       url:
         "https://github.com/MuhammadHamzaChippa/Topic-Detection-and-Text-Generation",
@@ -621,6 +593,162 @@ const projects = {
           style: {
             color: "#1488C6",
           },
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Weather Forecast Dashboard",
+      url: "https://hamza-weather-dashboard.web.app/",
+      description:
+        "This repository contains the code for weather dashboard created using ClojureScript and OpenWeathAPI and deployed on the firebase.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ClojureScript",
+          iconifyClass: "cib-clojure",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Bootstrap5",
+          iconifyClass: "logos-bootstrap",
+        },
+        {
+          name: "Material-ui",
+          iconifyClass: "logos-material-ui",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Gym Management System",
+      url: "https://github.com/MuhammadHamzaChippa/gym-management-system",
+      description:
+        "Gym management system which is created using ReactJS and hosted on Firebase and used Graphql API created using Hasura and PostgreSQL database.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Hasura",
+          iconifyClass: "simple-icons:hasura",
+          style: {
+            color: "#3565f5",
+          },
+        },
+        {
+          name: "Heroku",
+          iconifyClass: "simple-icons:heroku",
+          style: {
+            color: "#3565f5",
+          },
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "simple-icons:postgresql",
+          style: {
+            color: "#3565f5",
+          },
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Word Scrambles",
+      url: "https://github.com/MuhammadHamzaChippa/Word-Scrambles",
+      description:
+        "Word scrambles api that takes two words input and tell whether the second word can be rearrannged to form the first word. Frontend is created using Clojurescript",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ClojureScript",
+          iconifyClass: "cib-clojure",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          name: "Material-ui",
+          iconifyClass: "logos-material-ui",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Netflix Clone",
+      url: "https://netflix-clone-6122f.web.app/",
+      description:
+        "This is Netflix Clone Application created using React and deployed on Firebase",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Personal Portfolio",
+      url: "https://github.com/MuhammadHamzaChippa/hamza-portfolio",
+      description:
+        "A Personal Portfolio created using React and deployed on Firebase which showcases my work experience, projects and skills.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },
@@ -672,31 +800,36 @@ const projects = {
       ],
     },
     {
-      id: "2",
-      name: "Personal Portfolio",
-      url: "https://github.com/MuhammadHamzaChippa/hamza-portfolio",
+      id: "4",
+      name: "Heart Stroke Classifier",
+      url: "https://github.com/MuhammadHamzaChippa/Heart-Stroke-Classifier",
       description:
-        "A Personal Portfolio created using React and deployed on Firebase which showcases my work experience, projects and skills.",
+        "Logistic regression model implemented using scikit-learn which predicts whether the patient will get the heart stroke on the basis of his/her health record.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Python",
+          iconifyClass: "logos-python",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Numpy",
+          iconifyClass: "simple-icons:numpy",
+          style: {
+            color: "#3776AB",
+          },
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Pandas",
+          iconifyClass: "simple-icons:pandas",
+          style: {
+            color: "#E34F26",
+          },
         },
         {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
+          name: "Scikit Learn",
+          iconifyClass: "simple-icons:scikit-learn",
+          style: {
+            color: "#F7DF1E",
+          },
         },
       ],
     },
