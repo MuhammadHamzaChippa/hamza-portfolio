@@ -32,9 +32,9 @@ function App() {
             //   ringSize={25}
             //   transitionTime={75}
             // >
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            // </CursorProvider>
+            <Main theme={themes[theme]} setTheme={setTheme} />
           ) : (
+            // </CursorProvider>
             <Main theme={themes[theme]} setTheme={setTheme} />
           )}
         </div>
